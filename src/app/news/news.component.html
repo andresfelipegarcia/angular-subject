@@ -1,0 +1,22 @@
+<h2>News</h2>
+<p>
+  <span>Description:</span>
+  <input type="text" [(ngModel)]="news.description">
+</p>
+<p>
+  <span>Date:</span>
+  <input type="text" [(ngModel)]="news.date">
+</p>
+<p>
+  <button (click)="newNews()">Guardar</button>
+
+  <button (click)="getNews()">Get</button>
+</p>
+
+<h2>
+  News List
+</h2>
+
+<app-clients></app-clients>
+<app-clients></app-clients>
+

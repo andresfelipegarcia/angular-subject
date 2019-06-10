@@ -1,0 +1,11 @@
+<h2>
+  News List
+</h2>
+<div *ngIf="!listNews.length">News not found</div>
+<div>
+  <article *ngFor="let new of listNews">
+    <span>{{new.description}}</span>
+    <span>{{new.date}}</span>
+  </article>
+</div>
+
